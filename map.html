@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta name="viewport" content="initial-scale=1.0, user-scalable=no">
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
+    <link rel="stylesheet" href="assets/css/style.css" media="screen">
+    <link rel="stylesheet" type="text/css" href="assets/css/map.css">
+    <title>Map Search Page</title>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="assets/javascript/map.js"></script>
+    <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBxfSy4LtbFi7DTI6EQlUQ2UGTagyCBl3g&libraries=places&callback=initAutocomplete"
+    async defer></script>
+
+  </head>
+  <body>
+        <div class="container">
+            <div class="topnav">
+                <a class="active" href="index.html"> Michelle Chen </a>
+                <a href="./contact.html">Contact</a>
+                <a href="./map.html">Go Places</a>
+                <a href="./portfolio.html">Photo Gallery</a>
+                <a href="./index.html">About</a>
+            </div>
+        </div>
+        <div class="container">
+                <h2>Go Places</h2>
+        </div>
+        <br>
+
+    <section id="map-section">         
+        <div id="wrapper1">
+            <div id="map"></div>
+        </div>
+
+        <div id="wrapper2">
+            <div id="searchInputDiv">
+                <p> <strong>Search for places </strong></p>
+                <input id="pac-input" class="inpt locationInpt" type="text" placeholder="i.e. trader joe's near 91362">
+                <br><br>
+            </div>
+
+            <div id="buttonSection">      
+                <div id="drivingDirections">
+                    <a href="https://www.google.com/maps">Driving Directions</a>
+                </div>
+            </div> 
+        </div>
+
+        <div id="wrapper3">
+            <div id="businessDisplay"></div>
+        </div>
+    </section> 
+
+  </body>
+</html>

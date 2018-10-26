@@ -1,0 +1,126 @@
+/* Common css */
+body {
+    padding-left: 200px;
+    padding-right: 200px;
+    margin: 50px;
+    font-family: 'Georgia', Times, Times New Roman, serif;
+    color: '#777';
+    background-image: url("./paper.jpg");
+    width: '1960px';
+    font-size: '18px';
+    box-sizing: border-box;
+}
+
+footer
+{  
+background-color: #666666;      
+text-align: center;
+color: white;
+padding-top: 25px;
+}
+
+.topnav.hover {
+    backgroung-color:#333;
+    overflow: hidden;
+}
+
+.topnav a.active {
+    float: left;
+    background-color: tan;
+    color: teal;
+    font-size: 20px;
+}
+
+.topnav a {
+    background-color: grey;
+    float: right;
+    color: black;
+    text-align: center;
+    padding: 14px 16px;
+    font-size: 17px;
+}
+
+h2 {
+    color: teal;
+    text-align: left;
+    border: #666666;
+}
+
+hr {
+    border-top: 1px solid #666666;
+}
+
+
+/* index.html css */
+.media-object {
+    float: left;
+    width:230px;
+    height: 245px;
+    padding-right: 20px;
+}
+
+.media-body {
+    float: right;
+}
+
+p {
+    padding-bottom: 5px;
+}
+
+/* contact.html css */
+input[type="text"], select, textarea {
+    width: 100%;
+    padding: 10px;
+    box-sizing: border-box;
+    border: 1px, solid #666666;
+    overflow: visible;
+}
+
+input[type="submit"] {
+    background-color: teal;
+    color: white;
+    padding: 12px 20px;
+    margin: 10px;
+    margin-top: 10px;
+    cursor: pointer;
+}
+
+.container {
+    border-radius: 5px;
+    background-color: white;
+    padding: 10px;
+}
+
+/* portfolio.html css, but this class doesn't work. Did inline style to these images*/
+.imgagegroup {
+    width: 450px;
+    height: 400px;
+    padding: 10px;
+    margin: 12px 20px 12px 12px;
+}
+
+/* for all pages */
+@media screen and (max-width: 768px) {
+    div.media-object{
+        background-color: darkcyan;
+        padding: 
+    } 
+}
+    
+@media screen and (max-width: 768px) {
+    div.media-object{
+        background-color: yellowgreen;
+    }
+}
+
+@media screen and (max-width: 640px) {
+    div.media-object{
+        background-color: rgb(53, 50, 205);
+    } 
+}
+    
+@media only screen and (orientation: landscape) {
+    body {
+        background-color: lightblue;
+    }    
+}
